@@ -37,7 +37,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           # 使用 GitHub 提供的令牌
-          github_token: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          github_token: ${{ secrets.SECRET }}
           # 部署的目录（VitePress 默认构建输出目录）
           publish_dir: ./docs/.vitepress/dist
           # 部署到 gh-pages 分支
