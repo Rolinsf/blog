@@ -26,7 +26,9 @@ jobs:
           cache: npm
 
       - name: Install dependencies
-        run: npm ci
+        run: |
+          npm ci
+          npm install --save-dev vitepress
 
       - name: Build docs
         run: npm run docs:build  # 确保 package.json 中有此命令
