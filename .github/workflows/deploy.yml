@@ -42,3 +42,5 @@ jobs:
           publish_dir: ./docs/.vitepress/dist
           # 部署到 gh-pages 分支
           publish_branch: gh-pages
+          # 自定义域名配置
+          cname: blog.rolinsf.top
