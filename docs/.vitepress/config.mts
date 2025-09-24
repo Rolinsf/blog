@@ -4,7 +4,7 @@ export default defineConfig({
   title: "若林技术团队",
   description: "若林轻小说网站以及生态技术开发团队",
   // 设置部署基础路径，解决GitHub Pages部署后CSS样式丢失问题
-  base: '/blog/',
+  base: '/',
   head: [
     ['link', { rel: 'icon', href: '/logo.jpg', type: 'image/jpg' }]
   ],
